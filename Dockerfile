@@ -10,4 +10,5 @@ RUN empirica npm install
 
 EXPOSE 3000
 
+WORKDIR /app
 ENTRYPOINT empirica --production
